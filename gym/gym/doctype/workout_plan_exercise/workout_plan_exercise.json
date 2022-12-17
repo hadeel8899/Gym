@@ -1,0 +1,44 @@
+{
+ "actions": [],
+ "autoname": "exercise_name",
+ "creation": "2022-12-12 20:48:00.677963",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "exercise_name",
+  "duration",
+  "number_of_rotations"
+ ],
+ "fields": [
+  {
+   "fieldname": "exercise_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "exercise name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "duration",
+   "fieldtype": "Time",
+   "label": "duration"
+  },
+  {
+   "fieldname": "number_of_rotations",
+   "fieldtype": "Int",
+   "label": "number of rotations"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2022-12-12 20:48:18.369128",
+ "modified_by": "Administrator",
+ "module": "Gym",
+ "name": "workout plan exercise",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

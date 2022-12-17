@@ -1,0 +1,89 @@
+{
+ "actions": [],
+ "autoname": "series",
+ "creation": "2022-12-17 13:26:23.872786",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "member",
+  "member_name",
+  "section_break_3",
+  "start_date",
+  "end_date",
+  "mempership_type",
+  "pyment_method",
+  "state"
+ ],
+ "fields": [
+  {
+   "fieldname": "member",
+   "fieldtype": "Link",
+   "label": "Member",
+   "options": "Member"
+  },
+  {
+   "fetch_from": "member.first_name",
+   "fieldname": "member_name",
+   "fieldtype": "Data",
+   "label": "Member name",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_3",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "start_date",
+   "fieldtype": "Date",
+   "label": "start date"
+  },
+  {
+   "fieldname": "end_date",
+   "fieldtype": "Date",
+   "label": "end date"
+  },
+  {
+   "fieldname": "mempership_type",
+   "fieldtype": "Link",
+   "label": "mempership type",
+   "options": "membership type"
+  },
+  {
+   "fieldname": "pyment_method",
+   "fieldtype": "Select",
+   "label": "pyment method",
+   "options": "cash\nvisa\npaybal"
+  },
+  {
+   "fieldname": "state",
+   "fieldtype": "Select",
+   "label": "state",
+   "options": "active\npassive"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-12-17 13:40:51.064800",
+ "modified_by": "Administrator",
+ "module": "Gym",
+ "name": "membership",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
